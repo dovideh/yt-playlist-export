@@ -335,8 +335,9 @@ usage: yt-playlist-export.py [-h] [-f IDS_FILE] [--name NAME] [--description DES
 
 ## License
 
-MIT (or your preferred license — add a `LICENSE` file).
+[Unlicense](http://unlicense.org/) - Public Domain
 
+This software is released into the public domain. You can do whatever you want with it.
 ---
 
 ## Changelog (high-level)
