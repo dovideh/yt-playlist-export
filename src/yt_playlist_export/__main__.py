@@ -1,3 +1,10 @@
+import sys
+from . import main
+
 if __name__ == "__main__":
-    from yt_playlist_export import main
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nAborted by user.\n")
+        sys.exit(130)
+
